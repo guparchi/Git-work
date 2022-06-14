@@ -1,0 +1,9 @@
+Git init : start track
+git add --a : update
+git status : status check
+git commit -m "msg"
+
+git log : get all the commit
+
+git add <filename>
+git commit -m ""

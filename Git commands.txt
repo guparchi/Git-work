@@ -1,9 +1,16 @@
+git config --global user.name "Archi"
+git config --global user.email "gupta48archi@gmail.com"
+git config -list
+
 Git init : start track
 git add --a : update
 git status : status check
 git commit -m "msg"
 
-git log : get all the commit
+git log : get all the commit 
 
 git add <filename>
 git commit -m ""
+
+.gitignore basically used for the used to in=gnore the file , if any update happend
+Suppose in .gitignore added *.log ---> then will ignore all the .log file 

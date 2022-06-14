@@ -12,5 +12,10 @@ git log : get all the commit
 git add <filename>
 git commit -m ""
 
+
 .gitignore basically used for the used to in=gnore the file , if any update happend
 Suppose in .gitignore added *.log ---> then will ignore all the .log file 
+
+
+[gir diff] (working directory and staging me difference btata hai) 
+git diff --staged (compare last commit with last staged  )

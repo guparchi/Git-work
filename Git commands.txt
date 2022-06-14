@@ -19,3 +19,5 @@ Suppose in .gitignore added *.log ---> then will ignore all the .log file
 
 [gir diff] (working directory and staging me difference btata hai) 
 git diff --staged (compare last commit with last staged  )
+
+git commit -a -m "Add the file"

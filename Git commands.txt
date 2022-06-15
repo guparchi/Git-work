@@ -20,5 +20,40 @@ Suppose in .gitignore added *.log ---> then will ignore all the .log file
 [gir diff] (working directory and staging me difference btata hai) 
 git diff --staged (compare last commit with last staged  )
 
+git commit -a -m "Add the file" {it will commit modified file but not untracked files }
+
+
+ git.docx added to .gitignore but it will track because we are tracking the file so we need follow these steps:
+1.git rm --cached git.docx
+2. check status
+3. commit
+
 git mv git1.txt gir_list.txt
 git rm gir_list.txt
+
+
+git log 
+
+git log -p
+git log pretty==short
+git log pretty==full
+git log since= 2 days
+
+
+git commit --amend {to change the file, will prompt ht file}
+
+________________________
+
+git checkout -- <filename> {last commit restore:}
+
+git restore <filename>{to discard change}
+
+gir checkout -f {modified to last commit : restore the file}
+
+
+
+
+
+
+
+

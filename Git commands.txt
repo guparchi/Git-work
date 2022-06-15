@@ -50,6 +50,37 @@ git restore <filename>{to discard change}
 
 gir checkout -f {modified to last commit : restore the file}
 
+_______________
+
+
+crete repo in github then:
+
+git remote {to update the file in the server}
+git remote -v
+
+git push -u origin main
+
+_______________________
+
+Git Alias:
+
+git config --global alias.st status
+
+
+_______________________
+
+Git Branching:
+
+git checkout -b devlop {to create new branch}
+git checkout devlop/main
+git branch
+
+
+merge branch to devlop:
+git merge <branchname>
+
+
+____________________________
 
 
 

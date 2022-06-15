@@ -73,7 +73,6 @@ Git Branching:
 
 git checkout -b devlop {to create new branch}
 git checkout devlop/main
-<<<<<<< HEAD
 git branch
 
 
@@ -83,10 +82,13 @@ git merge <branchname>
 
 ____________________________
 
+branches upload:
+go to branch & 
 
-=======
->>>>>>> devlop
+git branch -d devlop {delete the branch}
 
+
+git push -u origin devlop:devlop_work
 
 
 

@@ -73,6 +73,7 @@ Git Branching:
 
 git checkout -b devlop {to create new branch}
 git checkout devlop/main
+<<<<<<< HEAD
 git branch
 
 
@@ -83,6 +84,8 @@ git merge <branchname>
 ____________________________
 
 
+=======
+>>>>>>> devlop
 
 
 
